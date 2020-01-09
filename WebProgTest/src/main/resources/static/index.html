@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        function visMelding(navn) {                         // Funksjon som inneholder en "System.out.print", tar inn navn
+            document.write("Hallo verden for: " + navn + ". Dato er: " + Date());
+        }
+    </script>
+</head>
+<body>
+<button onclick="visMelding('Per')">Trykk meg</button>
+<br>
+<br>
+<br>
+<br>
+<button onclick="document.getElementById('bilde').src='rød.png'">Rød</button>
+<img id="bilde" src="rød.png">
+<button onclick="document.getElementById('bilde').src='blå.png'">Blå</button>
+</body>
+</html>
